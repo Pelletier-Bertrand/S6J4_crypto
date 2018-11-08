@@ -8,7 +8,7 @@
 </div>
 
  <% if @name_from_form %>
- <h6>Le cours actuel de la monnaie <%= @name_from_form %>  est de 
- <%= CryptoDb.where(money: @name_from_form).pluck(:value).join %></h6>
+ <h3 class="text-center" style="color: white">Le cours actuel de la monnaie <%= @name_from_form %>  est de 
+ <%= CryptoDb.where(money: @name_from_form).pluck(:value).join %></h3>
  <% end %>
 
