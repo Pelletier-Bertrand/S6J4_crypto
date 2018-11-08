@@ -13,7 +13,21 @@
  *= require_tree .
  *= require_self
  */
- 
+body {
+  background-color: black !IMPORTANT;
+}
+h1 {
+  color: #4CAF50 !IMPORTANT;
+  font-family: inherit;
+}
+ .gif {
+   margin-left: 36%;
+   margin-top: 30px;
+   margin-bottom: 60px;
+ }
+ .btn-outline-success{
+   margin: 20px;
+ }
  .dropbtn {
   background-color: #4CAF50;
   color: white;
